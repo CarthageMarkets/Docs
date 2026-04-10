@@ -14,7 +14,7 @@ const founders = [
     name: "Dharma",
     role: "Co-founder & CTO",
     education: "CS @ RIT",
-    image: "/images/dharma.jpg",
+    image: "https://avatars.githubusercontent.com/u/59060125?v=4",
     linkedin: "https://www.linkedin.com/in/dharmatejasamudrala/",
   },
 ];
@@ -74,10 +74,10 @@ export default function Founders() {
 
           <div className="pt-4">
             <a
-              href="mailto:founder@carthage.markets"
+              href="mailto:founders@carthage.markets"
               className="text-sm font-medium text-white/50 hover:text-white/80 transition-colors"
             >
-              founder@carthage.markets
+              founders@carthage.markets
             </a>
           </div>
         </div>
