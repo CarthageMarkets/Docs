@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+<rect x="60" y="40" width="280" height="280" rx="4" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.7"/>
+<rect x="105" y="85" width="12" height="12" rx="1" fill="#ffffff" opacity="0.35" transform="rotate(-1.5 111 91)"/>
+<rect x="120" y="95" width="12" height="12" rx="1" fill="#ffffff" opacity="0.42" transform="rotate(1 126 101)"/>
+<rect x="110" y="110" width="12" height="12" rx="1" fill="#ffffff" opacity="0.5" transform="rotate(-0.8 116 116)"/>
+<rect x="130" y="105" width="12" height="12" rx="1" fill="#ffffff" opacity="0.45" transform="rotate(1.5 136 111)"/>
+<rect x="125" y="125" width="12" height="12" rx="1" fill="#ffffff" opacity="0.58" transform="rotate(-1 131 131)"/>
+<rect x="140" y="118" width="12" height="12" rx="1" fill="#ffffff" opacity="0.52" transform="rotate(0.5 146 124)"/>
+<rect x="145" y="135" width="12" height="12" rx="1" fill="#ffffff" opacity="0.62" transform="rotate(-1.8 151 141)"/>
+<rect x="135" y="145" width="12" height="12" rx="1" fill="#ffffff" opacity="0.68" transform="rotate(1.2 141 151)"/>
+<rect x="155" y="140" width="12" height="12" rx="1" fill="#ffffff" opacity="0.68" transform="rotate(-0.5 161 146)"/>
+<rect x="150" y="158" width="12" height="12" rx="1" fill="#ffffff" opacity="0.65" transform="rotate(1.8 156 164)"/>
+<rect x="165" y="150" width="12" height="12" rx="1" fill="#ffffff" opacity="0.68" transform="rotate(-1.2 171 156)"/>
+<rect x="160" y="170" width="12" height="12" rx="1" fill="#ffffff" opacity="0.6" transform="rotate(0.8 166 176)"/>
+<rect x="175" y="162" width="12" height="12" rx="1" fill="#ffffff" opacity="0.68" transform="rotate(-2 181 168)"/>
+<rect x="180" y="180" width="12" height="12" rx="1" fill="#ffffff" opacity="0.62" transform="rotate(1.5 186 186)"/>
+<rect x="170" y="185" width="12" height="12" rx="1" fill="#ffffff" opacity="0.55" transform="rotate(-0.7 176 191)"/>
+<rect x="195" y="190" width="12" height="12" rx="1" fill="#ffffff" opacity="0.5" transform="rotate(1 201 196)"/>
+<rect x="190" y="205" width="12" height="12" rx="1" fill="#ffffff" opacity="0.45" transform="rotate(-1.5 196 211)"/>
+<rect x="210" y="200" width="12" height="12" rx="1" fill="#ffffff" opacity="0.38" transform="rotate(0.5 216 206)"/>
+<rect x="205" y="218" width="12" height="12" rx="1" fill="#ffffff" opacity="0.32" transform="rotate(-1 211 224)"/>
+<rect x="225" y="215" width="12" height="12" rx="1" fill="#ffffff" opacity="0.28" transform="rotate(1.8 231 221)"/>
+<rect x="220" y="235" width="12" height="12" rx="1" fill="#ffffff" opacity="0.22" transform="rotate(-0.5 226 241)"/>
+<rect x="240" y="230" width="12" height="12" rx="1" fill="#ffffff" opacity="0.18" transform="rotate(1.2 246 236)"/>
+<rect x="255" y="248" width="12" height="12" rx="1" fill="#ffffff" opacity="0.14" transform="rotate(-1.8 261 254)"/>
+<rect x="270" y="262" width="12" height="12" rx="1" fill="#ffffff" opacity="0.1" transform="rotate(0.8 276 268)"/>
+<rect x="288" y="278" width="12" height="12" rx="1" fill="#ffffff" opacity="0.08" transform="rotate(-1 294 284)"/>
+<circle cx="315" cy="68" r="4" fill="#ffffff" opacity="0.25"/>
+<circle cx="85" cy="295" r="4" fill="#ffffff" opacity="0.25"/>
+<text x="200" y="390" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="500" fill="#ffffff" opacity="0.85">Carthage</text>
+<text x="200" y="420" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#ffffff" opacity="0.5">MARKETS</text>
+</svg>
