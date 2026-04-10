@@ -7,9 +7,24 @@ export default function Home() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) setSubmitted(true);
+    if (!email) return;
+    setLoading(true);
+    try {
+      await fetch("/api/waitlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      setSubmitted(true);
+    } catch {
+      setSubmitted(true);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -49,9 +64,10 @@ export default function Home() {
                 />
                 <button
                   type="submit"
-                  className="h-12 shrink-0 rounded-lg bg-white px-6 text-sm font-medium text-black transition-opacity hover:opacity-90"
+                  disabled={loading}
+                  className="h-12 shrink-0 rounded-lg bg-white px-6 text-sm font-medium text-black transition-opacity hover:opacity-90 disabled:opacity-50"
                 >
-                  Get Early Access
+                  {loading ? "..." : "Get Early Access"}
                 </button>
               </div>
               <a

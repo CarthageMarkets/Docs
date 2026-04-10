@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Courier_Prime, Inter } from "next/font/google";
 import "./globals.css";
 
@@ -28,7 +29,16 @@ export default function RootLayout({
       lang="en"
       className={`dark ${courierPrime.variable} ${inter.variable} h-full antialiased`}
     >
-      <body className={`${courierPrime.className} min-h-full flex flex-col`}>{children}</body>
+      <body className={`${courierPrime.className} min-h-full flex flex-col`}>
+        {children}
+        {process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID && (
+          <Script
+            defer
+            src={process.env.NEXT_PUBLIC_UMAMI_URL}
+            data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
+          />
+        )}
+      </body>
     </html>
   );
 }
