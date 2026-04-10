@@ -7,7 +7,7 @@ const founders = [
     name: "Rania",
     role: "Co-founder & CEO",
     education: "CS @ UPenn",
-    image: "/images/rania.jpg",
+    image: "",
     linkedin: "https://www.linkedin.com/in/rania-upenn/",
   },
   {
@@ -43,13 +43,19 @@ export default function Founders() {
             {founders.map((f) => (
               <div key={f.name} className="space-y-4">
                 <div className="mx-auto h-28 w-28 overflow-hidden rounded-full bg-white/10 ring-2 ring-white/10">
-                  <Image
-                    src={f.image}
-                    alt={f.name}
-                    width={112}
-                    height={112}
-                    className="h-full w-full object-cover"
-                  />
+                  {f.image ? (
+                    <Image
+                      src={f.image}
+                      alt={f.name}
+                      width={112}
+                      height={112}
+                      className="h-full w-full object-cover"
+                    />
+                  ) : (
+                    <div className="flex h-full w-full items-center justify-center text-2xl font-semibold text-white/30">
+                      {f.name[0]}
+                    </div>
+                  )}
                 </div>
                 <div className="space-y-1">
                   <h2 className="text-xl font-semibold text-white">{f.name}</h2>
