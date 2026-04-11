@@ -72,6 +72,34 @@ export default function Founders() {
             ))}
           </div>
 
+          <div className="space-y-4 text-left">
+            <h2 className="text-lg font-semibold text-white text-center">How We Met</h2>
+            <div className="space-y-3 text-sm leading-relaxed text-white/50">
+              <p>
+                YHack, Yale campus. We were both there, building with different teams, minding our own business.
+              </p>
+              <p>
+                Then Dharma spotted Rania wearing a YC pullover. Naturally, his first question:
+                <span className="text-white/70 italic"> &ldquo;Did you get into YC?&rdquo;</span>
+              </p>
+              <p>
+                She said no. She just liked the shirt.
+              </p>
+              <p>
+                Awkward pause. Recovery attempt: <span className="text-white/70 italic">&ldquo;So... what did you build?&rdquo;</span>
+              </p>
+              <p>
+                That one question turned into ditching the hackathon, walking around Yale&apos;s campus for hours, and talking about prediction markets, startups, and why every trading tool felt like it was built in 2014.
+              </p>
+              <p>
+                What followed: months of user interviews. Talking to every prediction market trader we could find. Narrowing the problem over and over until we couldn&apos;t simplify it anymore.
+              </p>
+              <p className="text-white/70">
+                The pullover didn&apos;t get her into YC. But it might have started a company.
+              </p>
+            </div>
+          </div>
+
           <div className="pt-4">
             <a
               href="mailto:founders@carthage.markets"
